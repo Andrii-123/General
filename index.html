@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine's Day!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabriela&family=Great+Vibes&family=Imperial+Script&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container" id="page1">
+        <h1>З Днем Святого Валентина! ❤️</h1>
+        <img src="https://media.tenor.com/nWIOZ042HR8AAAAi/mochi-and-mochi-peach-cat.gif" alt="Cute GIF">
+        <p>Хочеш побачити мій подарунок?</p>
+        <button onclick="showNextPage()">Натисни сюди</button>
+    </div>
+
+    <div class="container hidden" id="page2">
+        <h2>Кароче… Я вирішив написати невеликий віршик для тебе) <br>Це перший раз коли я роблю щось подібне, тому прошу сильно не судити.</h2>
+        <div class="content">
+            <div class="left-side">
+                <img src="https://media.tenor.com/UTmQNO88ls8AAAAi/cat-love.gif" alt="Cute GIF">
+                <button onclick="revealPoem()">Клацни</button>
+            </div>
+            <div class="right-side">
+                <div id="poem"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
